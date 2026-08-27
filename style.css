@@ -1,8 +1,11 @@
+body {
+    max-width: 100vw;
+}
+
 header {
       background-color: #C0B9E2;
       color: #1E1137;
       text-align: center;
-      max-width: 800px;
       margin: 0 auto;
       padding: 16px;
 }
@@ -10,12 +13,18 @@ header {
 main {
       background-color: #1E1137;
       color: #C0B9E2;
-      max-width: 800px;
       margin: 0 auto;
       padding: 16px;
+      display: flex;
 }
 article{
       display: flex;
+
+      border: 1px solid #1E1137;
+
+      margin: 16px;
+      gap: 16px;
+      padding: 16px;
 
 }
 
